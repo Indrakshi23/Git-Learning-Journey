@@ -41,6 +41,16 @@
             Do need to sign up for an account. 
             It's an online place to share work that is done using GIT. 
 
+> GIT Terminal vs GUI
+-- Git is basically a command line tool. 
+  But, nowadays, git allows people to use git without using command line. 
+  For that, we have GIT GUI which includs - a> Github Desktop 
+                                            b> Source Tree
+                                            c> Tower 
+                                            d> GitKraken 
+                                            e> Ungit
+
+
 
 
 
