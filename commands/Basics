@@ -1,6 +1,53 @@
 # Here, I will document the basics of my Git-learning-journey. 
 #Let's Start !!
 
+> What exactly is GIT? 
+--Git is known as the most popular version control system(VCS).
+
+> What is Version Control System ?
+--Version Control is a software that tracks and manages changes to files over time. 
+  Version Control System allow users to revisit earlier versions of files, compare changes between versions of files, undo changes and a lot more. 
+
+> Other Version Control System ?
+--Git is just one of the many VCS. 
+  The other VCS have the same goal, but varies in the process of work. 
+  Other VCS includes -> Subversion, CVS, Mercuruial.
+
+> Uses of GIT?
+-- a> Track changes across  multiple files. 
+   b> Compare versions of a project.
+   c> "Time Travel" back to old versions. 
+   d>  Revert to a previous version. 
+   e> Collaborate and share changes. 
+   f> Combine changes. 
+
+> Who uses GIT?
+-- a> Developers - It is a must have skill for developers. 
+   b> Non- Developers -They learn git to collaborate with other co-workers. 
+   c> Governments - Nowadays, Government also uses git. 
+   d> Scientists - Commonly used by research teams for storing data and manage. 
+   e> Writers - Some writers use git to manage drafts and writings. 
+            Anyone can use GIT to store their data and manage it over time. 
+
+> GIT vs GITHUB.
+-- GIT != GITHUB [!= -> Not equal to] 
+   GIT - It runs locally on our machine. 
+         We don't need Github to use GIT. 
+         No need of internet. 
+         No need to sign up for an account.
+
+   GITHUB - It is a service that hosts git repositories in the cloud. 
+            It makes it easier to collaboate with other people. 
+            Do need to sign up for an account. 
+            It's an online place to share work that is done using GIT. 
+
+
+
+
+  
+
+  
+
 
 
 
