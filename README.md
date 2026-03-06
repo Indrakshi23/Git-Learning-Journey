@@ -8,7 +8,7 @@ Documenting my Git learning journey
 ## 🛠 MY GIT AND GITHUB TOOL BOX 
 
 GIT BASH -> https://git-scm.com/install/windows
-GITHUB -> ## 🛠 My SQL Toolbox
+GITHUB -> https://github.com/
 
 
 
