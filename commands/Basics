@@ -56,6 +56,17 @@
 > How to check Git has been successfully installed or not?
  ![Alt text for the screenshot] (Screenshot 2026-03-06 215802.png)
 
+> Configuring Git 
+-- To configure the name git will associate your work with
+   git config --global user.name "<username>"
+-- To check -> git config user.name
+-- To configure the email git will associate your work with 
+   git config --global user.email "<user email>"
+-- To check -> git config user.email 
+-- 
+
+
+
 
 
 
