@@ -70,10 +70,17 @@
 
 > COMMANDS -
 -- 1> Git status -> gives current status of the git repo and it's contents.
--- 2> Git init -> to create a new git repo. Before, we can do anything git related we must initialize our repo first. Make sure you are not inside a repo while wxecuting this command.
--- 3> Commit -> commit everything that was previously added. 
-      [ Commit workflow - work on stuff > add changes > commit] 
+                    [git status]
+-- 2> Git init -> To create a new git repo. Before, we can do anything git related we must initialize our repo first. Make sure you are not inside a repo while executing this command.
+                  [git init]
+-- 3> Commit -> commit everything that was previously added and staged.  
+      [ Commit workflow - work on stuff > add changes > commit]
+      [git commit -m "message"]
 -- 4> Git add -> we use git add command to stage changes to be committed. 
+                 [ git add <file name> - add that particular file ]
+                 [ git add . - adds all the files ]
+-- 5> Git Log -> It logs all the commits of given repo. 
+                 [ git log] 
 
 
 
