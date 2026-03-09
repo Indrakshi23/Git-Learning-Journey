@@ -63,7 +63,18 @@
 -- To configure the email git will associate your work with 
    git config --global user.email "<user email>"
 -- To check -> git config user.email 
--- 
+
+> What is GIT REPOSITORY?
+-- It is a workplace which tracks and manages files within a folder. 
+   If we want to create a new project. app etc, we have to create a new git repo. We can have as many repos on our machine as needed with separate histories and contents. 
+
+> COMMANDS -
+-- 1> Git status -> gives current status of the git repo and it's contents.
+-- 2> Git init -> to create a new git repo. Before, we can do anything git related we must initialize our repo first. Make sure you are not inside a repo while wxecuting this command.
+-- 3> Commit -> commit everything that was previously added. 
+      [ Commit workflow - work on stuff > add changes > commit] 
+-- 4> Git add -> we use git add command to stage changes to be committed. 
+
 
 
 
