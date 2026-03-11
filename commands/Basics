@@ -67,6 +67,10 @@
 > What is GIT REPOSITORY?
 -- It is a workplace which tracks and manages files within a folder. 
    If we want to create a new project. app etc, we have to create a new git repo. We can have as many repos on our machine as needed with separate histories and contents. 
+   Two types of repositories are there - 
+   Public repository - it will be visible by everyone
+
+   private repository - it will not be visible for everyone.
 
 > COMMANDS -
 -- 1> Git status -> gives current status of the git repo and it's contents.
