@@ -63,6 +63,15 @@
 -- To configure the email git will associate your work with 
    git config --global user.email "<user email>"
 -- To check -> git config user.email 
+-- We can see all your Git settings with -> git config --list
+-- To remove a setting -> git config --global --unset <user. email> 
+-- Set the default branch name for new repositories (for example, main instead of master) -> git config --global init.defaultBranch main
+
+-- There are three levels of configuration:
+    System (all users): git config --system
+    Global (current user): git config --global
+    Local (current repo): git config --local
+
 
 > What is GIT REPOSITORY?
 -- It is a workplace which tracks and manages files within a folder. 
@@ -76,10 +85,11 @@
 -- 1> Git status -> gives current status of the git repo and it's contents.
                     [git status]
 -- 2> Git init -> To create a new git repo. Before, we can do anything git related we must initialize our repo first. Make sure you are not inside a repo while executing this command.
+                  Git creates a hidden folder called .git inside your project.    
                   [git init]
 -- 3> Commit -> commit everything that was previously added and staged.  
-      [ Commit workflow - work on stuff > add changes > commit]
-      [git commit -m "message"]
+                [ Commit workflow - work on stuff > add changes > commit]
+                [git commit -m "message"]
 -- 4> Git add -> we use git add command to stage changes to be committed. 
                  [ git add <file name> - add that particular file ]
                  [ git add . - adds all the files ]
