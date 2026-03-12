@@ -1,3 +1,15 @@
 GIT COMMIT !! 
 
-> COMMIT - 
+Before Commit we have to stage the files. 
+> *Staging -*
+--The staging environment (or staging area) is like a waiting room for your changes.
+  You use it to tell Git exactly which files you want to include in your next commit.
+  Here are some key commands for staging:- 
+     a> git add <file> - Stage a file
+     b> git add --all or git add -A - Stage all changes
+     c> git status - See what is staged
+     d> git restore --staged <file> - Unstage a file
+
+
+
+ 
