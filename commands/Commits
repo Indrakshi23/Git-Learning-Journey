@@ -10,6 +10,22 @@ Before Commit we have to stage the files.
      c> git status - See what is staged
      d> git restore --staged <file> - Unstage a file
 
+> *Commit -*
+--A commit is like a save point in your project.
+  Here are some key commands for commits:
+           git commit -m "message" - Commit staged changes with a message    [Commit staged changes with a message]
+           git commit -a -m "message" - Commit all tracked changes (skip staging)   [Commit all tracked changes (skip staging)]
+           git log - See commit history       [See commit history] 
+
+Create an empty commit:
+git commit --allow-empty -m "Start project"
+Use previous commit message (no editor):
+git commit --no-edit
+Quickly add staged changes to last commit, keep message:
+git commit --amend --no-edit
+
+
+   
 
 
 
