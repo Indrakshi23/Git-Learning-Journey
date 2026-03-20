@@ -11,4 +11,7 @@ If we make changes on one branch, they do not impact other branches unless we me
    Many people designate the master branch as the "official branch" for their codebase, but that is left to you to decide. 
 
 * In 2020, Github renamed the default branch from master to main. 
- 
+
+* HEAD -> 
+--Head is simply a pointer which refers the current location in your repository. 
+  It points to a particular branch reference. 
