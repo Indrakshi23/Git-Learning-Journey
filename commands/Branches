@@ -1,1 +1,6 @@
+GIT BRANCHES !!
+
+It is an essential part of GIT. 
+They enable us to create separate contexts where we can try new things, or even work on multiple ideas in parallel. 
+If we make changes on one branch, they do not impact other branches unless we merge the changes. 
 
