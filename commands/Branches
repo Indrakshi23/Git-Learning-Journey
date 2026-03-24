@@ -29,6 +29,7 @@ If we make changes on one branch, they do not impact other branches unless we me
      [ git checkout <branch-name> ] -> Checkout command does a million additional things, that's why we use switch. 
   -- Creating and switching branches together 
      [ git switch -c <branch-name> ] -> It will create and switch at the same time. 
+     [git checkout -b <branch-name> ] -> It will create and switch at the same time.
 
 
 
