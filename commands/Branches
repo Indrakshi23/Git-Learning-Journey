@@ -23,5 +23,8 @@ If we make changes on one branch, they do not impact other branches unless we me
      [ git branch <branch-name> ] -> It will create a new branch. 
   -- Switching branches 
      [ git switch <branch-name> ] -> Once, we have created a new branch, we can switch with this command. 
+   ** We can't see the modification of files, which we have added to the other other branches. 
+
+
 
 
