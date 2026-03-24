@@ -30,7 +30,11 @@ If we make changes on one branch, they do not impact other branches unless we me
   -- Creating and switching branches together 
      [ git switch -c <branch-name> ] -> It will create and switch at the same time. 
      [git checkout -b <branch-name> ] -> It will create and switch at the same time.
-
+   ** If we try to switch branches with the same files, it will show conflicts. 
+      But, if we try to switch branches with new files, then it will carry it to that branch. 
+  -- Deleting and Renaming Branches 
+     [ git branch -d <branch-name> ] -> It will delete the files normally.
+     [ git branch -D <branch-name> ] -> It will delete forcefully.
 
 
 
