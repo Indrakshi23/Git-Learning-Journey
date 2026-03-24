@@ -18,5 +18,9 @@ If we make changes on one branch, they do not impact other branches unless we me
 
 > Commands -
   -- Viewing branches 
-     [ git branch] 
+     [ git branch] -> It shows and lists you the current branches.
+  -- Creating and Switching Branches 
+     [ git branch <branch-name> ] -> It will create a new branch. 
+  -- 
+
 
