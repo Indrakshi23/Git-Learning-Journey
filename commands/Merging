@@ -4,5 +4,9 @@ MERGING !!
 Branching makes it easy to work within self-contained contexts. If we want to incorporate changes from one branch to another, we can use merge command. 
 It basically means combining the changes from one branch to another. 
 
+  * We always merge to the current HEAD Branch. 
+  * We merge branches, bot committs. 
+
+
 
 
