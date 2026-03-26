@@ -39,6 +39,8 @@ If we make changes on one branch, they do not impact other branches unless we me
   -- Renaming Branches 
      [ git branch -m <branch-name> ] -> It will rename the branch name
    ** To rename a branch name, we have be present on the particular branch name which we want to change.
+  -- To check the status 
+     [ git status] 
 
 
 
