@@ -33,8 +33,8 @@ If we make changes on one branch, they do not impact other branches unless we me
    ** If we try to switch branches with the same files, it will show conflicts. 
       But, if we try to switch branches with new files, then it will carry it to that branch. 
   -- Deleting Branches 
-     [ git branch -d <branch-name> ] -> It will delete the files normally.
-     [ git branch -D <branch-name> ] -> It will delete forcefully.
+     [ git branch -d <branch-name> ] -> It will delete the merged files.
+     [ git branch -D <branch-name> ] -> It will delete the unmerged files.
    ** To delete a branch, we have to switch to any other branches and delete the branch we want. We cannot delete the same branch on which we are working on. 
   -- Renaming Branches 
      [ git branch -m <branch-name> ] -> It will rename the branch name
