@@ -25,10 +25,16 @@ It basically means combining the changes from one branch to another.
   -- [git merge --abort] 
 
 > MERGE CONFLICTS -
-  Depending on the specific changes we are trying to merge, Git may be able to automatically merge. 
+ -- Depending on the specific changes we are trying to merge, Git may be able to automatically merge. 
   This results in merge conflicts, which you need to manually resolve. 
   A merge conflict happens when changes in two branches touch the same part of a file, and Git does not know which version to keep. 
   Git needs our help to decide which one to keep. 
+
+> HOW TO RESOLVE A MERGE CONFLICT - 
+ -- Git will mark the conflict in your file. 
+    We need to open the file and look for lines with[ <<<<<<<< HEAD ] and [========] and decide what the final version should be. 
+    Then stage our committs. 
+
 
 
 
