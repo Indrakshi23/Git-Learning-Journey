@@ -11,6 +11,14 @@ It basically means combining the changes from one branch to another.
 -- a) Switch to or checkout the branch you want to merge the changes into (receiving branch).
    b) use the git merge command to merge changes from a specific branch into the current branch.
 
+> COMMANDS -
+  a> To show branches as well as commits 
+ -- [git branch -v] 
+  b> To merge     
+     (First, we need to switch to the branch in which we want to merge or add the changes. then execute the command)
+ -- [git merge <branch-name> ] 
+  c> 
+
 
 
 
