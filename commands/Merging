@@ -16,8 +16,13 @@ It basically means combining the changes from one branch to another.
  -- [git branch -v] 
   b> To merge     
      (First, we need to switch to the branch in which we want to merge or add the changes. then execute the command)
- -- [git merge <branch-name> ] 
-  c> 
+  -- [git merge <branch-name> ] 
+  c> To create a merge commit 
+  -- [git merge --no-ff ] -> It will always create a merge commit.
+  d> To combine changes into a single commit 
+  -- [git merge --squash ] 
+  e> To abort a merge in progress 
+  -- [git merge --abort] 
 
 
 
