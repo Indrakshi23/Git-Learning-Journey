@@ -37,7 +37,8 @@ It basically means combining the changes from one branch to another.
    * Open the file with merge conflicts. 
    * Edit the file to remove the conflict. Decide which branch's content we want to keep or both. 
    * Remove the conflict 'markers' in the document.
-   * Add your changes and then make a commit. 
+   * Add your changes and then make a commit. [ git add and then commit] 
+
 
 
 
