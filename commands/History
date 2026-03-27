@@ -23,4 +23,9 @@ HISTORY !!
   [ git log --author="lolo" ]
 -- To show recent commits 
   [ git log --since="1 week ago" ] -> There should not be any gap in between. 
+-- To show files changed per commit 
+  [ git log --stat] 
+-- To show graph of branch 
+  [ git log --graph] 
+
 
