@@ -1,1 +1,19 @@
 
+HISTORY !!
+
+> WHAT IS GIT HISTORY -
+-- Git helps to keep a detailed record of every change made to our project. 
+   We can use history commands to see what changed, when and who made the changes. 
+   This will help to track progress , finding bugss and understanding our project's evolution. 
+
+> COMMANDS - 
+-- To show full commit history 
+   [git log] 
+-- To show commit history in one line
+   [git log --oneline] 
+-- To show detail of a particular commit 
+   [ git show <commit> ]
+-- To see unstaged changes
+   [ git diff ]
+-- To see sraged changes 
+  [ git diff --staged] 
