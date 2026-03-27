@@ -17,3 +17,10 @@ HISTORY !!
    [ git diff ]
 -- To see sraged changes 
   [ git diff --staged] 
+-- To compare two commits 
+  [ git diff <commit1> <commit2> ]
+-- To show commits by a specific Author 
+  [ git log --author="lolo" ]
+-- To show recent commits 
+  [ git log --since="1 week ago" ] -> There should not be any gap in between. 
+
