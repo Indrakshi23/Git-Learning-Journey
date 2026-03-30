@@ -8,4 +8,8 @@ It will lists all the changes in the working directory that are not staged for t
 > Commands -
 -- Lists changes in the working directory
    [ git diff] 
--- 
+-- Lists all changes in the working directory since the last commit
+   [ git diff HEAD] 
+-- Viewing staged changes ( It will list the changes between the staging area and our last commit)
+   [ git dff --staged] 
+   [ git diff --cached]  
