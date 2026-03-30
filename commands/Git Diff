@@ -1,1 +1,6 @@
 
+GIT DIFF !!
+
+We can use the git diff command to view changes between committs, branches, files, working directory and many more. 
+we use it side by side with git status and git log, to get a better picture of a repo and how it has changed over time. 
+
