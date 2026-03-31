@@ -15,4 +15,8 @@ It will lists all the changes in the working directory that are not staged for t
    [ git diff --cached]  
 -- Viewing particular staged files 
    [ git diff --stages <filename> ]
+-- Comparing Branches 
+   [ git diff branch1..branch2 ]
+-- Comparing two commits
+   [ git diff commit1..commit2 ]
 
