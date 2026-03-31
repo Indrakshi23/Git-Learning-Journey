@@ -13,3 +13,6 @@ It will lists all the changes in the working directory that are not staged for t
 -- Viewing staged changes ( It will list the changes between the staging area and our last commit)
    [ git dff --staged] 
    [ git diff --cached]  
+-- Viewing particular staged files 
+   [ git diff --stages <filename> ]
+
