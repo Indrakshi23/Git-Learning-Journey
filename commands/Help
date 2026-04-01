@@ -1,1 +1,17 @@
 
+GIT HELP !!
+
+If you forget how a command works or want to learn about it's options, you can use Git's built-in help. 
+This is the fastest way to get answers without leaving your terminal. 
+
+> COMMANDS 
+-- To view the manual page for a command 
+   [ git help <command> ]
+-- To see help for a command 
+   [ git <command> --help ]
+-- To see a quick summary of options 
+   [ git <command> -h ]
+-- To list all possible git commands 
+   [ git help --all ]
+-- To list guides and concepts 
+   [ git help -g] 
