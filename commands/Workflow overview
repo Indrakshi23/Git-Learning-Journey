@@ -13,6 +13,22 @@ Three Areas of GIT ->
 > Pushing Changes 
 -- We can use this to send our commits to a remote repository like Github, so others can see them.
    [ git push ]
+> Checking status 
+-- To see which files are staged, unstaged or untracked. 
+   [ git status ]
 
 [working directory] -- git add --> [staging area] --git commit --> [Repository] 
+
+
+> COMMANDS - 
+-- Unstage a file and moving it out of staging area
+   [ git restore --staged <file_name> ] 
+-- Undo changes in working directory before staging 
+   [ git restore <file> ] 
+-- Undo our last commit, keeps changes in your working directory
+   [ git reset HEAD~ ]
+-- change the last commit message or add files to our last commit 
+   [ git commit --amend ] 
+
+
 
