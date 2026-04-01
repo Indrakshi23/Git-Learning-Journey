@@ -29,5 +29,8 @@ we can come back and restore our changes later.
     [ git stash apply ]
 --  To let us restore a specific stash from our list, not just the most recent one.
     [ git stash apply stash@{n} ] -> n denotes numbers like 1 , 2 etc. 
+--  To restore our most recent stash and removes it from the list at the same time.
+    [ git stash pop ] 
+--  
 
 
