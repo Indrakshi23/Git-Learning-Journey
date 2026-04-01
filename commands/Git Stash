@@ -35,6 +35,13 @@ we can come back and restore our changes later.
     [ git stash apply stash@{n} ] -> n denotes numbers like 1 , 2 etc. 
 --  To restore our most recent stash and removes it from the list at the same time.
     [ git stash pop ] 
---  
+--  To deletes a specific stash from our list when we no longer need it.
+    [ git stash drop stash@{n} ] ->  n denotes numbers like 1 , 2 etc. 
+--  To delete all our stashes at once. Be careful! This cannot be undone!
+    [ git stash clear ] 
+--  To creates a new branch and applies our stashed changes to it.
+    [ git stash <new_branch_name> stash@{n} ] 
+
+
 
 
