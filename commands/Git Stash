@@ -1,1 +1,8 @@
 
+GIT STASHING !!
+
+Sometimes we need to quickly switch tasks or fix a bug, but we're not ready to commit our work.
+git stash lets us save our uncommitted changes and return to a clean working directory.
+we can come back and restore our changes later.
+
+
