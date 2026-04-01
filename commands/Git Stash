@@ -14,6 +14,10 @@ we can come back and restore our changes later.
 -- Each time we run git stash, our changes are saved on top of a "stack".
    The most recent stash is on top, and we can apply or drop stashes from the top down, or pick a specific one from the list.
 
+>  What is Git Stash Apply ?
+-- You can use git switch apply to apply whatever is stashed away, without removing it from stash. 
+   This can be useful if you want to apply stashed changes to multiple branches. 
+
 > Commands 
 --  To save all the uncommitted changes (staged and unstaged) and stash them
     [ git stash ] / [ git stash save ]
