@@ -10,5 +10,9 @@ Three Areas of GIT ->
 -- Where we prepare changes before committing. 
 > Repository 
 -- Where our committed history is stored.
+> Pushing Changes 
+-- We can use this to send our commits to a remote repository like Github, so others can see them.
+   [ git push ]
 
 [working directory] -- git add --> [staging area] --git commit --> [Repository] 
+
