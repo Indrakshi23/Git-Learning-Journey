@@ -5,6 +5,7 @@ Three Areas of GIT ->
 
 > Working Directory 
 -- Where we make changes to our files. 
+   Files here will be new, modified, or deleted. But, it won't save the changes until we stage and commit them.
 > Staging Area 
 -- Where we prepare changes before committing. 
 > Repository 
