@@ -21,4 +21,13 @@ we can come back and restore our changes later.
     [ git stash push -m "<message>" ]
 --  To show all the stashes we have saved so far, with their names and messages.
     [ git stash list ]
+--  To show a summary of what files and changes are in our most recent stash.
+    [ git stash show ] 
+--  To show the exact lines that were changed in our most recent stash.
+    [ git stash show -p ]
+--  To restore our most recent stashed changes, but keeps the stash in the list so we can use it again if needed.
+    [ git stash apply ]
+--  To let us restore a specific stash from our list, not just the most recent one.
+    [ git stash apply stash@{n} ] -> n denotes numbers like 1 , 2 etc. 
+
 
