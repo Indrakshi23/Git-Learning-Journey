@@ -1,1 +1,13 @@
 
+GIT WORKFLOW !!
+
+Three Areas of GIT -> 
+
+> Working Directory 
+-- Where we make changes to our files. 
+> Staging Area 
+-- Where we prepare changes before committing. 
+> Repository 
+-- Where our committed history is stored.
+
+[working directory] -- git add --> [staging area] --git commit --> [Repository] 
