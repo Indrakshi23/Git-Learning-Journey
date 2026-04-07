@@ -9,7 +9,7 @@ Before Commit we have to stage the files.
      b> git add --all or git add -A - Stage all changes
      c> git status - See what is staged
      d> git restore --staged <file> - Unstage a file
-     e> git restore <file_name> - To revert a file to the state it was in at the last commit.
+     e> git restore <file_name> - To revert a file to the state it was in at the last commit. 
 
 > *Commit -*
 --A commit is like a save point in your project.
